@@ -1,0 +1,25 @@
+﻿<Window x:Class="GiveMeWisdomNowPlease.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Give me wisdom now please"
+        Height="137"
+        Width="300"
+        Icon="Icon.ico">
+    <Grid>
+        <TextBox
+            Name="Wisdom"
+            HorizontalAlignment="Stretch"
+            Width="278"
+            TextWrapping="Wrap"
+            TextAlignment="Center"
+            IsReadOnly="True"
+            BorderThickness="0" Margin="0,12,0,0" />
+        <Button
+            Name="NewWisdom"
+            HorizontalAlignment="Center"
+            Content="Give me new wisdom now please"
+            Click="NewWisdom_Click"
+            VerticalAlignment="Bottom"
+            Margin="46,0,50,12" />
+    </Grid>
+</Window>
