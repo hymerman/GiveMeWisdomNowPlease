@@ -2,8 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Give me wisdom now please"
-        Height="144"
-        Width="324"
+        Height="160"
+        Width="378"
         Icon="Icon.ico"
         >
     <Grid>
